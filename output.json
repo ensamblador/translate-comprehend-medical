@@ -1,0 +1,488 @@
+{
+  "texto_original": "Se identifica fractura del tercio distal posterior del peron\u00e9, con separaci\u00f3n del fragmento distal en aproximadamente 2 mm hacia posterior. Fractura del extremo distal de la tibia en el margen posterior, con probable componente de la superficia articular con el astragalo. Existe adecuada congruencia y amplitud de la articulaci\u00f3n tibioperoneoastragalina. Se sugiere para mejor caracterizaci\u00f3n complementar con proyecciones adicionales (oblicuas) y/o tomografia computada de tobillo.",
+  "texto_traducido": "Fracture of the posterior distal third of the fibula is identified, with separation of the distal fragment by approximately 2 mm towards posterior. Fracture of the distal end of the tibia in the posterior margin, with probable component of the articular surface with the astragalus. There is adequate congruence and amplitude of the tibioperoneoastragaline joint. It is suggested for better characterization to complement additional projections (oblique) and/or computed ankle tomography.",
+  "entites": [
+    {
+      "Id": 13,
+      "BeginOffset": 0,
+      "EndOffset": 8,
+      "Score": 0.9765294790267944,
+      "Text": "Fracture",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [{ "Name": "DIAGNOSIS", "Score": 0.9520832896232605 }]
+    },
+    {
+      "Id": 2,
+      "BeginOffset": 33,
+      "EndOffset": 52,
+      "Score": 0.9371318221092224,
+      "Text": "third of the fibula",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": []
+    },
+    {
+      "Id": 14,
+      "BeginOffset": 73,
+      "EndOffset": 83,
+      "Score": 0.47017377614974976,
+      "Text": "separation",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 15,
+      "BeginOffset": 148,
+      "EndOffset": 156,
+      "Score": 0.9759581089019775,
+      "Text": "Fracture",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [{ "Name": "DIAGNOSIS", "Score": 0.9263665676116943 }]
+    },
+    {
+      "Id": 6,
+      "BeginOffset": 171,
+      "EndOffset": 187,
+      "Score": 0.7089635729789734,
+      "Text": "end of the tibia",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": []
+    },
+    {
+      "Id": 8,
+      "BeginOffset": 205,
+      "EndOffset": 211,
+      "Score": 0.4233684241771698,
+      "Text": "margin",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": []
+    },
+    {
+      "Id": 9,
+      "BeginOffset": 244,
+      "EndOffset": 261,
+      "Score": 0.9427329301834106,
+      "Text": "articular surface",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": []
+    },
+    {
+      "Id": 12,
+      "BeginOffset": 333,
+      "EndOffset": 356,
+      "Score": 0.4288637936115265,
+      "Text": "tibioperoneoastragaline",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 10,
+      "BeginOffset": 333,
+      "EndOffset": 362,
+      "Score": 0.9045634269714355,
+      "Text": "tibioperoneoastragaline joint",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": []
+    },
+    {
+      "Id": 20,
+      "BeginOffset": 462,
+      "EndOffset": 487,
+      "Score": 0.34676843881607056,
+      "Text": "computed ankle tomography",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TEST_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 11,
+      "BeginOffset": 471,
+      "EndOffset": 476,
+      "Score": 0.6778213977813721,
+      "Text": "ankle",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": []
+    }
+  ],
+  "unnmaped_attributes": [
+    {
+      "Type": "TEST_TREATMENT_PROCEDURE",
+      "Attribute": {
+        "Type": "TEST_VALUE",
+        "Score": 0.527953028678894,
+        "Id": 16,
+        "BeginOffset": 0,
+        "EndOffset": 146,
+        "Text": "Fracture of the posterior distal third of the fibula is identified, with separation of the distal fragment by approximately 2 mm towards posterior",
+        "Traits": []
+      }
+    },
+    {
+      "Type": "ANATOMY",
+      "Attribute": {
+        "Type": "DIRECTION",
+        "Score": 0.9878130555152893,
+        "Id": 0,
+        "BeginOffset": 16,
+        "EndOffset": 25,
+        "Text": "posterior",
+        "Traits": []
+      }
+    },
+    {
+      "Type": "ANATOMY",
+      "Attribute": {
+        "Type": "DIRECTION",
+        "Score": 0.9660047888755798,
+        "Id": 1,
+        "BeginOffset": 26,
+        "EndOffset": 32,
+        "Text": "distal",
+        "Traits": []
+      }
+    },
+    {
+      "Type": "ANATOMY",
+      "Attribute": {
+        "Type": "DIRECTION",
+        "Score": 0.9691579937934875,
+        "Id": 3,
+        "BeginOffset": 91,
+        "EndOffset": 97,
+        "Text": "distal",
+        "Traits": []
+      }
+    },
+    {
+      "Type": "ANATOMY",
+      "Attribute": {
+        "Type": "DIRECTION",
+        "Score": 0.9823499917984009,
+        "Id": 4,
+        "BeginOffset": 137,
+        "EndOffset": 146,
+        "Text": "posterior",
+        "Traits": []
+      }
+    },
+    {
+      "Type": "TEST_TREATMENT_PROCEDURE",
+      "Attribute": {
+        "Type": "TEST_VALUE",
+        "Score": 0.9638882875442505,
+        "Id": 17,
+        "BeginOffset": 148,
+        "EndOffset": 211,
+        "Text": "Fracture of the distal end of the tibia in the posterior margin",
+        "Traits": []
+      }
+    },
+    {
+      "Type": "ANATOMY",
+      "Attribute": {
+        "Type": "DIRECTION",
+        "Score": 0.9637925028800964,
+        "Id": 5,
+        "BeginOffset": 164,
+        "EndOffset": 170,
+        "Text": "distal",
+        "Traits": []
+      }
+    },
+    {
+      "Type": "ANATOMY",
+      "Attribute": {
+        "Type": "DIRECTION",
+        "Score": 0.9653186798095703,
+        "Id": 7,
+        "BeginOffset": 195,
+        "EndOffset": 204,
+        "Text": "posterior",
+        "Traits": []
+      }
+    },
+    {
+      "Type": "TEST_TREATMENT_PROCEDURE",
+      "Attribute": {
+        "Type": "TEST_VALUE",
+        "Score": 0.8530073165893555,
+        "Id": 18,
+        "BeginOffset": 218,
+        "EndOffset": 281,
+        "Text": "probable component of the articular surface with the astragalus",
+        "Traits": []
+      }
+    },
+    {
+      "Type": "TEST_TREATMENT_PROCEDURE",
+      "Attribute": {
+        "Type": "TEST_VALUE",
+        "Score": 0.859167754650116,
+        "Id": 19,
+        "BeginOffset": 292,
+        "EndOffset": 362,
+        "Text": "adequate congruence and amplitude of the tibioperoneoastragaline joint",
+        "Traits": []
+      }
+    }
+  ],
+  "phi_entities": [],
+  "icd10_entities": [
+    {
+      "Id": 0,
+      "Text": "Fracture",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Score": 0.9765294790267944,
+      "BeginOffset": 0,
+      "EndOffset": 8,
+      "Attributes": [
+        {
+          "Type": "DIRECTION",
+          "Score": 0.9878130555152893,
+          "RelationshipScore": 0.9998942613601685,
+          "Id": 1,
+          "BeginOffset": 16,
+          "EndOffset": 25,
+          "Text": "posterior",
+          "Traits": []
+        },
+        {
+          "Type": "DIRECTION",
+          "Score": 0.9660047888755798,
+          "RelationshipScore": 0.9998823404312134,
+          "Id": 2,
+          "BeginOffset": 26,
+          "EndOffset": 32,
+          "Text": "distal",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9371318221092224,
+          "RelationshipScore": 0.9884103536605835,
+          "Id": 3,
+          "BeginOffset": 33,
+          "EndOffset": 52,
+          "Text": "third of the fibula",
+          "Traits": []
+        }
+      ],
+      "Traits": [{ "Name": "DIAGNOSIS", "Score": 0.9520832896232605 }],
+      "ICD10CMConcepts": [
+        {
+          "Description": "Fracture of neck, unspecified",
+          "Code": "S12.9",
+          "Score": 0.7396045327186584
+        },
+        {
+          "Description": "Fracture of left shoulder girdle, part unspecified",
+          "Code": "S42.92",
+          "Score": 0.7048169374465942
+        },
+        {
+          "Description": "Unspecified fracture of right wrist and hand",
+          "Code": "S62.91",
+          "Score": 0.6808062791824341
+        },
+        {
+          "Description": "Fracture of nasal bones",
+          "Code": "S02.2",
+          "Score": 0.6622062921524048
+        },
+        {
+          "Description": "Other injury of unspecified body region",
+          "Code": "T14.8",
+          "Score": 0.6606977581977844
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Text": "separation",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Score": 0.4701736569404602,
+      "BeginOffset": 73,
+      "EndOffset": 83,
+      "Attributes": [
+        {
+          "Type": "DIRECTION",
+          "Score": 0.9878130555152893,
+          "RelationshipScore": 0.9766870737075806,
+          "Id": 1,
+          "BeginOffset": 16,
+          "EndOffset": 25,
+          "Text": "posterior",
+          "Traits": []
+        },
+        {
+          "Type": "DIRECTION",
+          "Score": 0.9660047888755798,
+          "RelationshipScore": 0.7395280003547668,
+          "Id": 2,
+          "BeginOffset": 26,
+          "EndOffset": 32,
+          "Text": "distal",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9371318221092224,
+          "RelationshipScore": 0.7929133176803589,
+          "Id": 3,
+          "BeginOffset": 33,
+          "EndOffset": 52,
+          "Text": "third of the fibula",
+          "Traits": []
+        },
+        {
+          "Type": "DIRECTION",
+          "Score": 0.9691579937934875,
+          "RelationshipScore": 0.9984301924705505,
+          "Id": 5,
+          "BeginOffset": 91,
+          "EndOffset": 97,
+          "Text": "distal",
+          "Traits": []
+        },
+        {
+          "Type": "DIRECTION",
+          "Score": 0.9823499917984009,
+          "RelationshipScore": 0.9880698323249817,
+          "Id": 6,
+          "BeginOffset": 137,
+          "EndOffset": 146,
+          "Text": "posterior",
+          "Traits": []
+        }
+      ],
+      "Traits": [],
+      "ICD10CMConcepts": [
+        {
+          "Description": "Disruption of family by separation and divorce",
+          "Code": "Z63.5",
+          "Score": 0.547595202922821
+        },
+        {
+          "Description": "Separation of muscle (nontraumatic)",
+          "Code": "M62.0",
+          "Score": 0.5389840006828308
+        },
+        {
+          "Description": "Premature separation of placenta, unspecified, second trimester",
+          "Code": "O45.92",
+          "Score": 0.5278475880622864
+        },
+        {
+          "Description": "Separation of muscle (nontraumatic), other site",
+          "Code": "M62.08",
+          "Score": 0.5231251120567322
+        },
+        {
+          "Description": "Unspecified separation of retinal layers",
+          "Code": "H35.70",
+          "Score": 0.46707743406295776
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "Text": "Fracture",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Score": 0.9759581089019775,
+      "BeginOffset": 148,
+      "EndOffset": 156,
+      "Attributes": [
+        {
+          "Type": "DIRECTION",
+          "Score": 0.9637925028800964,
+          "RelationshipScore": 0.9997650980949402,
+          "Id": 8,
+          "BeginOffset": 164,
+          "EndOffset": 170,
+          "Text": "distal",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.7089635133743286,
+          "RelationshipScore": 0.9956739544868469,
+          "Id": 9,
+          "BeginOffset": 171,
+          "EndOffset": 187,
+          "Text": "end of the tibia",
+          "Traits": []
+        },
+        {
+          "Type": "DIRECTION",
+          "Score": 0.9653186798095703,
+          "RelationshipScore": 0.9994986057281494,
+          "Id": 10,
+          "BeginOffset": 195,
+          "EndOffset": 204,
+          "Text": "posterior",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.4233684241771698,
+          "RelationshipScore": 0.9982540011405945,
+          "Id": 11,
+          "BeginOffset": 205,
+          "EndOffset": 211,
+          "Text": "margin",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9427329301834106,
+          "RelationshipScore": 0.6583445072174072,
+          "Id": 12,
+          "BeginOffset": 244,
+          "EndOffset": 261,
+          "Text": "articular surface",
+          "Traits": []
+        }
+      ],
+      "Traits": [{ "Name": "DIAGNOSIS", "Score": 0.9263665676116943 }],
+      "ICD10CMConcepts": [
+        {
+          "Description": "Other injury of unspecified body region",
+          "Code": "T14.8",
+          "Score": 0.5338589549064636
+        },
+        {
+          "Description": "Displaced unspecified fracture of left great toe",
+          "Code": "S92.402",
+          "Score": 0.5179621577262878
+        },
+        {
+          "Description": "Fracture of nasal bones",
+          "Code": "S02.2",
+          "Score": 0.5101004838943481
+        },
+        {
+          "Description": "Fracture of neck, unspecified",
+          "Code": "S12.9",
+          "Score": 0.49842894077301025
+        },
+        {
+          "Description": "Unspecified fracture of left femur",
+          "Code": "S72.92",
+          "Score": 0.4971272051334381
+        }
+      ]
+    }
+  ]
+}
